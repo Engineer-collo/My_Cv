@@ -10,7 +10,7 @@ export default function App() {
       <div className="relative z-10 max-w-4xl mx-auto bg-white bg-opacity-90 rounded-2xl shadow-lg p-8 mt-10 text-gray-800 font-sans">
         <header className="text-center mb-6">
           <img
-            src="/collo.png"
+            src="/image.png"
             alt="Collins Likhomba"
             className="w-32 h-32 rounded-full mx-auto mb-4"
           />
