@@ -8,60 +8,32 @@ export default function App() {
 
       {/* Main content container */}
       <div className="relative z-10 max-w-4xl mx-auto bg-white bg-opacity-90 rounded-2xl shadow-lg p-8 mt-10 text-gray-800 font-sans">
-      <header className="text-center mb-6">
-  <div className="flex flex-col items-center gap-2 mb-4">
-    <img
-      className="h-20 w-20 rounded-full object-cover border-2 border-blue-500 shadow-md"
-      src="/image.png"
-      alt="Engineer Collins Profile"
-    />
-    <h1 className="text-3xl md:text-4xl font-bold text-blue-700">
-      Collins Likhomba
-    </h1>
-    <p className="text-sm text-gray-600">
-      Software Engineer | Fullstack Web Developer
-    </p>
-  </div>
+        <header className="text-center mb-6">
+          <img
+            src="/image.png"
+            alt="Collins Likhomba"
+            className="w-32 h-32 rounded-full mx-auto mb-4"
+          />
+          <h1 className="text-4xl font-bold text-blue-700">Collins Likhomba</h1>
+          <p className="text-sm">Software Engineer | Fullstack Web Developer</p>
 
-  <div className="flex justify-center mt-2 space-x-4 text-sm">
-    <span>Nairobi</span>
-    <span>|</span>
-    <span>0743250838</span>
-    <span>|</span>
-    <span>collinslikhomba@gmail.com</span>
-  </div>
+          <div className="flex justify-center mt-2 space-x-4 text-sm">
+            <span>Nairobi, Kenya</span>
+            <span>|</span>
+            <span>+254 743250838</span>
+            <span>|</span>
+            <span>collinslikhomba@gmail.com</span>
+          </div>
 
-  <div className="flex justify-center mt-2 flex-wrap gap-3 text-blue-600 underline text-sm">
-    <a
-      href="https://www.linkedin.com/in/collins-likhomba-7b364730a/"
-      target="_blank"
-      rel="noreferrer"
-    >
-      LinkedIn
-    </a>
-    <a
-      href="https://github.com/Engineer-collo?tab=repositories"
-      target="_blank"
-      rel="noreferrer"
-    >
-      GitHub
-    </a>
-    <a
-      href="https://portfolio-git-main-collins-likhombas-projects.vercel.app/"
-      target="_blank"
-      rel="noreferrer"
-    >
-      Portfolio
-    </a>
-    <a
-      href="https://x.com/CollinsLikhomba"
-      target="_blank"
-      rel="noreferrer"
-    >
-      Twitter
-    </a>
-  </div>
-</header>
+          <div className="flex justify-center mt-2 flex-wrap gap-3 text-blue-600 underline text-sm">
+            <a href="https://www.linkedin.com/in/collins-likhomba-7b364730a/" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href="https://github.com/Engineer-collo?tab=repositories" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://collinslikhomba.dev/blog" target="_blank" rel="noreferrer">Blog</a>
+            <a href="https://portfolio-git-main-collins-likhombas-projects.vercel.app/" target="_blank" rel="noreferrer">Portfolio</a>
+            {/* <a href="https://web.facebook.com/collins.likhomba.shunza" target="_blank" rel="noreferrer">Facebook</a> */}
+            <a href="https://x.com/CollinsLikhomba" target="_blank" rel="noreferrer">Twitter</a>
+          </div>
+        </header>
 
         <section className="mb-6">
           <h2 className="text-2xl font-semibold border-b pb-1 mb-2">Summary</h2>

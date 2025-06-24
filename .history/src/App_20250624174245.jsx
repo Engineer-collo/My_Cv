@@ -9,18 +9,20 @@ export default function App() {
       {/* Main content container */}
       <div className="relative z-10 max-w-4xl mx-auto bg-white bg-opacity-90 rounded-2xl shadow-lg p-8 mt-10 text-gray-800 font-sans">
       <header className="text-center mb-6">
-  <div className="flex flex-col items-center gap-2 mb-4">
+  <div className="flex justify-center items-center gap-3 mb-2">
     <img
-      className="h-20 w-20 rounded-full object-cover border-2 border-blue-500 shadow-md"
+      className="h-12 w-12 rounded-full object-cover border-2 border-blue-500 shadow"
       src="/image.png"
-      alt="Engineer Collins Profile"
+      alt="Engineer Collins Logo"
     />
-    <h1 className="text-3xl md:text-4xl font-bold text-blue-700">
-      Collins Likhomba
-    </h1>
-    <p className="text-sm text-gray-600">
-      Software Engineer | Fullstack Web Developer
-    </p>
+    <div className="text-left">
+      <h1 className="text-2xl md:text-3xl font-bold text-blue-700">
+        Collins Likhomba
+      </h1>
+      <p className="text-sm text-gray-600">
+        Software Engineer | Fullstack Web Developer
+      </p>
+    </div>
   </div>
 
   <div className="flex justify-center mt-2 space-x-4 text-sm">

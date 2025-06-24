@@ -11,7 +11,7 @@ export default function App() {
       <header className="text-center mb-6">
   <div className="flex flex-col items-center gap-2 mb-4">
     <img
-      className="h-20 w-20 rounded-full object-cover border-2 border-blue-500 shadow-md"
+      className="h-25 w-25 rounded-full object-cover border-2 border-blue-500 shadow-md"
       src="/image.png"
       alt="Engineer Collins Profile"
     />
